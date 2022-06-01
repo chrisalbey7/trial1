@@ -61,10 +61,20 @@ def main():
         input("Wrong input try again")
 
 
+# program to set username
+def username():
+    userID = str(
+        character_place.upper()[0] + character_place.upper()[1] + character_name.upper()[0] + character_name.upper()[
+            1] + character_name.upper()[2]) + str(character_age)
+    print("USER ID: " + userID)
+    return userID
+
+
 # Surprise!
 def game():
     print('')
-    print("Hello gamer Fuck you! find some real games bruhh...! :) ")
+    username()
+    print("Hello gamer, Fuck you! find some real game bruhh...! :) ")
 
 
 # Excited to play?
@@ -81,3 +91,7 @@ def game_mode():
 # Here goes my First application
 story()
 main()
+
+# login user, new user page
+# login page
+# regestration page
